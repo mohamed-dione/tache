@@ -1,0 +1,355 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+}
+.Navbar {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.Navbar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.76);
+}
+.images {
+  background-image: url(images/Group\ 25.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding: 20px;
+}
+.bakeli {
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 45%;
+  width: 150px;
+  margin-top: 200px;
+}
+h1 {
+  text-align: center;
+  margin-left: 36%;
+  padding: 30px;
+  background-color: rgba(105, 105, 105, 0.753);
+  color: white;
+  height: 30px;
+  margin-top: 35px;
+  width: 26%;
+  font-size: 29px;
+  font-weight: 400;
+}
+p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+  margin-left: 37%;
+}
+.text2 {
+  text-align: center;
+}
+.text8 {
+  display: flex;
+}
+.images2 img {
+  width: 50px;
+  height: 50px;
+  padding: 55px;
+  border-radius: 50%;
+  border: 1px solid #a3c1ad;
+}
+.images3 img {
+  width: 50px;
+  height: 50px;
+  padding: 53px;
+  border: 1px solid #a3c1ad;
+  border-radius: 50%;
+}
+.images4 img {
+  width: 50px;
+  height: 50px;
+  padding: 55px;
+  border: 1px solid teal;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h4 {
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.title1 {
+  font-size: 18px;
+  text-align: center;
+}
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+h5 {
+  display: flex;
+  text-align: center;
+  font-size: 45px;
+  justify-content: center;
+}
+h6 {
+  text-align: center;
+  font-size: 43px;
+}
+.images5 img {
+  width: 100%;
+}
+.container {
+  display: flex;
+  padding: 100px 100px;
+  gap: 200px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-left: 70px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.container .progress-box {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0;
+}
+.progress-box .title {
+  display: "inline-block";
+  font-size: 16px;
+  font-weight: 600;
+}
+.progress-box .progress-bg {
+  width: 100%;
+  height: 16px;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+}
+.pratique-bg {
+  width: 100%;
+  height: 15px;
+  background-color: #a3c1ad;
+  border-radius: 20px;
+  animation-delay: 0.1s;
+}
+.bakelistes.inseres-bg {
+  width: 80%;
+  height: 15px;
+  background-color: #a3c1ad;
+  border-radius: 20px;
+  animation-delay: 0.2s;
+}
+.opportunites-bg {
+  width: 90%;
+  height: 15px;
+  background-color: #a3c1ad;
+  border-radius: 20px;
+  animation-delay: 0.3s;
+}
+.bg {
+  width: 75%;
+  height: 15px;
+  background-color: #a3c1ad;
+  border-radius: 20px;
+  animation-delay: 0.4s;
+}
+.meta {
+  display: flex;
+}
+.title {
+  float: left;
+  margin-top: -9%;
+  margin: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.progress-bar {
+  text-align: center;
+  opacity: 0;
+  animation: progress 2s ease-in-out forwards;
+}
+.item-value {
+  margin-left: auto;
+  margin-top: -9%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+.text3 {
+  padding-top: 1px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #a3c1ad;
+  color: white;
+  height: 915px;
+  margin-top: -20px;
+}
+.notreteam {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.images6 img {
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.images6 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.imgindiv:hover {
+  transform: scale(
+   1.09
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.text2 {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  gap: 290px;
+}
+.navbar a {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  margin: -110px;
+}
+.bakelischool {
+  background-color: rgba(169, 169, 169, 0.123);
+  text-align: center;
+  height: 280px;
+}
+h5 {
+  padding: 60px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.text4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 4%;
+  font-size: 18px;
+}
+.text5 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.text6 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 6%;
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(128, 128, 128, 0.301);
+  height: 500px;
+}
+.container1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 115px;
+}
+.left-side1 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 17px;
+  margin-top: 50px;
+  gap: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.left-side2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  gap: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.right-side1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  gap: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.right-side2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  gap: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text {
+  text-align: center;
+}
+.text7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: -215px;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title3 {
+  margin-top: 25%;
+  text-align: center;
+}

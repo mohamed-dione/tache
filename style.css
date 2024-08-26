@@ -6,11 +6,10 @@ body {
 }
 .Navbar {
   display: flex;
-  gap: 40px;
-  padding: 50px;
   justify-content: center;
-  font-size: 25px;
-  margin-top: 50px;
+  font-size: 22px;
+  margin: 3%;
+  gap: 50px;
 }
 .Navbar a {
   text-decoration: none;
@@ -22,15 +21,14 @@ body {
   background-size: cover;
   background-position: center;
   height: 700px;
-  padding: 20px;
+  padding: 1%;
 }
 .bakeli {
   background-color: white;
   border-radius: 25px;
-  padding: 10px;
   margin-left: 45%;
-  width: 150px;
-  margin-top: 200px;
+  width: 165px;
+  margin-top: 120px;
 }
 h1 {
   text-align: center;
@@ -40,18 +38,14 @@ h1 {
   color: white;
   height: 30px;
   margin-top: 35px;
-  width: 26%;
+  width: 29%;
   font-size: 29px;
   font-weight: 400;
 }
 p {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 40px;
   font-size: 20px;
   color: white;
-  margin-left: 37%;
+ text-align: center;
 }
 .text2 {
   text-align: center;
@@ -112,9 +106,6 @@ h5 {
 h6 {
   text-align: center;
   font-size: 43px;
-}
-.images5 img {
-  width: 100%;
 }
 .container {
   display: flex;
@@ -223,16 +214,18 @@ h6 {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 5%;
+  width: 22%;
 }
 .images6 {
   display: flex;
   gap: 40px;
   justify-content: center;
 }
+
 .imgindiv:hover {
   transform: scale(
-   1.09
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    1.06
+  ) /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .text2 {
@@ -242,16 +235,13 @@ h6 {
   display: flex;
   justify-content: center;
   font-size: 23px;
-  gap: 290px;
+  gap: 30px;
 }
 .navbar a {
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+ margin-top: -9rem;
   font-size: 22px;
   text-decoration: none;
   color: black;
-  margin: -110px;
 }
 .bakelischool {
   background-color: rgba(169, 169, 169, 0.123);
@@ -264,7 +254,7 @@ h5 {
 .logo {
   display: flex;
   align-items: center;
-  padding-top: 3%;
+  padding-top: 12%;
   justify-content: center;
   gap: 30px;
   text-align: center;
@@ -337,19 +327,130 @@ h5 {
   gap: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.text {
-  text-align: center;
-}
 .text7 {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: -215px;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5%;
 }
 .title3 {
-  margin-top: 25%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 70%;
+  font-size: 13px;
+}
+.team {
+  height: 800px;
+}
+@media screen and (max-width: 768px) {
+  /* Styles pour cette Media Queries */
+  body{
+    border: 1px solid;
+  }
+  .Navbar {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+  }
+  .text3 {
+    height: 700px;
+  }
+  .images5{
+    flex-direction: column;
+  }
+  
+  .images6 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+  }
+  
+  .bakeli img{
+    width: 100px;
+  }
+  .bakeli{
+    padding: 10px;
+    margin-left: 30%;
+    width: 100px;
+    margin-top: 50px;
+  }
+  .images {
+    height: 500px;
+    padding: 20px;
+  }
+  h1 {
+    margin-left: 20%;
+    padding: 10px;
+    height: 30px;
+    width: 46%;
+    font-size: 14px;
+  }
+  p {
+text-align: center;
+  }
+  .img-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 23px;
+  }
+  .navbar a {
+    margin-top: -7rem;
+    font-size: 22px;
+    text-decoration: none;
+   }
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 20px;
+  }
+  .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 7px;
+  }
+  .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   width: 100%;
+  }
+  .title {
+    float: left;
+    margin-top: -1%;
+    margin: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .team {
+    margin-top: 15rem;
+    height: 800px;
+  }
+  footer {
+    margin-top: 55rem;
+  }
 }
